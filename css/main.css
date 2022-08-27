@@ -1,0 +1,402 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img_logo{
+    width: 400px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img__carousel{
+    height: 30rem;
+    width: auto;
+}
+.intro {
+    padding: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 1.50rem;
+}
+
+.fondo{
+    background-image:url(../img/fondocontacto.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+}
+
+.wajapen__img {
+    height: 45px;
+    width: 45px;
+    bottom: 9rem;
+    right: 1rem;
+    box-sizing: border-box;
+    position: fixed;
+    
+}
+
+.subtitulo {
+    margin-top: 50px;
+    background-color: rgb(112, 92, 112);
+    text-align: center;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.17rem;
+
+}
+
+.destacados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.destacados div {
+    padding-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.img__destacados{
+    width: 200px;
+    height: 250px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    text-decoration: solid;
+
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja__fija {
+    background:whitesmoke;
+    border: solid 3px black;
+    width: 250px;
+}
+
+button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: white
+}
+
+
+.titulord {
+    background-color: rgb(112, 92, 112);
+    text-align: center;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.17rem;
+
+}
+
+.redes {
+    justify-content: space-around;
+
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    list-style: none;
+
+}
+
+.redes ul>li {
+    margin: 10px;
+}
+
+.redes__img {
+    height: 50px;
+    width: 50px;
+}
+
+#footer {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+/* estilo de quienes somos */
+
+.quienes__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quienes__item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.quienes__texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.quienes__texto p {
+    margin: 2rem
+}
+
+.quienes__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 300px;
+
+}
+
+.quienes__img img {
+    width: 50%;
+    height: 70%;
+    border: 5px solid grey;
+}
+
+/* estilos de prodcutos */
+
+.productos__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.productos__sidebar {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productos__sidebar--filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: auto;
+    font-weight: bold;
+    margin: 20px;
+    padding: 15px;
+    width: 80%;
+    height: 3rem;
+    border: 3px solid #6666;
+}
+
+.productos__sidebar--filter:hover {
+    color: #ffff;
+    background: rgb(112, 92, 112);
+    box-shadow: 10px 5px 5px rgb(215, 165, 215);
+    ;
+}
+
+.productos__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productos__pagination {
+    display: flex;
+    align-items: center;
+    gap:10rem;
+    justify-content:center;
+    margin-right: 1rem;
+    
+
+}
+
+.productos__nextpage {
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.contact__form {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+/* estilos de catalogo */
+
+.catalago{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5rem;
+}
+
+.catalogo__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: rgb(68, 255, 0);
+    border-radius: 1rem;
+    margin-top: 3rem;
+    padding-top: 5rem;
+    border:solid 3px;
+}
+
+.catalago__container--img{
+    height: 30vh;
+    max-width: 80%;
+    
+}
+
+.catalago__container p{
+    font-size: 1.25rem;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    text-decoration: solid;
+}
+
+/* estilos de contacto */
+
+.contact__form--p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: crece;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 2rem;
+    
+}
+
+@keyframes crece{
+    from{
+        transform: scale(0.5);
+
+    }
+
+    to{
+        transform: scale(1);
+    }
+
+}
+
+
+
+/*   GRIDs & Mediaquery 767p */
+
+@media screen and (max-width: 767px) {
+
+
+    .img img {
+        height: 40vh;
+        max-width: 100%;
+    }
+
+    .navbar{
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+}
+
+
+/* ----------- Mediaquery 768p ---------- */
+
+@media (min-width: 768px) {
+
+    .header__img{
+        height: 45vh;
+        width: auto;
+    }
+
+    .catalago__container--img{
+        height: 40vh;
+        max-width: 100%;
+        
+    }
+ 
+    .navbar__menu--message{
+        display:none;
+    }
+
+    .navbar-expand-md .navbar-collapse{
+        display: flex;
+        flex-basis: auto;
+        flex-direction: column-reverse;
+    }
+
+    .img__carousel{
+        height: 580px;
+        width: 100vw;
+    }
+}
+
+
+
+/* --------- Mediaquery 950p ----------- */
+
+@media (max-width: 950px) {
+    .quienes__texto {
+        width: 100%;
+    }
+
+    .quienes__img {
+        width: 100%;
+    }
+}
+/* ---------- Mediaquery 1024p ----------- */
+
+@media screen and (min-width: 1024px) {
+
+    .catalago{
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+        
+    }
+
+    .catalago p{
+        font-size: 2rem;
+    }   
+
+    .header__img{
+        height: 50vh;
+        width: auto;
+    }
+
+}
